@@ -282,16 +282,9 @@ export const Footer: React.FC = () => {
             <span className="text-slate-500">Gaya, Bihar, India</span>
             <span>•</span>
             <p>
-              Developed by{' '}
-              <a
-                href="https://main.webmakerit.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-400 hover:text-emerald-300 font-medium underline underline-offset-4 decoration-emerald-500/40 inline-flex items-center gap-1"
-              >
-                <span>WMIT</span>
-                <ExternalLink className="w-3 h-3" />
-              </a>
+              {' '}
+              <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
+
             </p>
           </div>
         </div>
